@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AIApi
 {
+    /// <summary>
+    /// Class for getting and setting the API key.
+    /// </summary>
     public class ApiKey : IApiKey
     {
         /// <summary>
