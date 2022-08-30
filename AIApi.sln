@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIApi", "AIApi.csproj", "{C149A54A-7CAF-4F16-B2E4-67ACBF06270E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C149A54A-7CAF-4F16-B2E4-67ACBF06270E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C149A54A-7CAF-4F16-B2E4-67ACBF06270E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C149A54A-7CAF-4F16-B2E4-67ACBF06270E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C149A54A-7CAF-4F16-B2E4-67ACBF06270E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4329EFCC-1094-48B0-8157-7E0523BF2B77}
+	EndGlobalSection
+	GlobalSection(AutomaticVersions) = postSolution
+		PrimaryVersionType = AssemblyInfoVersionAttribute
+		UpdateAssemblyVersion = True
+		UpdateAssemblyFileVersion = True
+		UpdateAssemblyInfoVersion = True
+		AdvancedSettingsExpanded = True
+		AssemblyVersionSettings = None.None.IncrementWithResetOnIncrease.HalfOfSecondsSinceMidnight
+		AssemblyFileVersionSettings = None.None.IncrementWithResetOnIncrease.HalfOfSecondsSinceMidnight
+		UpdatePackageVersion = False
+		AssemblyInfoVersionSemVerSettings = AssemblyVersion.IncrementWithAutoReset.None
+		AssemblyInfoVersionType = SemVer1
+		InheritWinAppVersionFrom = None
+	EndGlobalSection
+EndGlobal
