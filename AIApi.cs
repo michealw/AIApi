@@ -2,7 +2,7 @@
 
 namespace AIApi
 {
-    public class AIApi
+    public static class AirportInfo
     {
         /// <summary>
         /// Gets the airport data for the provided code.
