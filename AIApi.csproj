@@ -4,12 +4,25 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>1.0.1.35700</AssemblyVersion>
-    <FileVersion>1.0.1.35700</FileVersion>
+    <AssemblyVersion>1.0.2.36122</AssemblyVersion>
+    <FileVersion>1.0.2.36122</FileVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>AircraftInfoApi</Title>
     <Authors>Micheal Wass</Authors>
     <Copyright>(C) 2022 Micheal R. Wass</Copyright>
+    <PackageProjectUrl>https://github.com/michealw/AIApi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/michealw/AIApi.git</RepositoryUrl>
+    <Version>$(AssemblyVersion)</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
