@@ -6,6 +6,16 @@ A C# library for accessing the [Airport Info API](https://rapidapi.com/Active-ap
 
 ---
 #### How to Use
+
+Create the API key object.
 ```
-Coming soon.
+var apiKey = new ApiKey("API_KEY_GOES_HERE", "airport-info.p.rapidapi.com");
+```
+
+Call the `GetAirportAsync` function. Use `ParameterType.Iata` if you're using a three-letter IATA code.
+```
+using (var airport = await AirportInfo.GetAirportAsync(apiKey, ParameterType.Icao, "KCMH"))
+{
+    
+}
 ```
