@@ -4,8 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>1.0.2.36122</AssemblyVersion>
-    <FileVersion>1.0.2.36122</FileVersion>
+    <AssemblyVersion>1.0.3.36262</AssemblyVersion>
+    <FileVersion>1.0.3.36262</FileVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>AircraftInfoApi</Title>
     <Authors>Micheal Wass</Authors>
@@ -17,6 +17,10 @@
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="LICENSE.txt">
